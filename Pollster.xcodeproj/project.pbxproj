@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF16DE0C1D27F91F00CD316E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF16DE0B1D27F91F00CD316E /* AppDelegate.swift */; };
+		AF16DE111D27F91F00CD316E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF16DE0F1D27F91F00CD316E /* Main.storyboard */; };
+		AF16DE131D27F91F00CD316E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF16DE121D27F91F00CD316E /* Assets.xcassets */; };
+		AF16DE161D27F91F00CD316E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF16DE141D27F91F00CD316E /* LaunchScreen.storyboard */; };
+		AF16DE221D27F98800CD316E /* CloudKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF16DE1E1D27F98800CD316E /* CloudKitExtensions.swift */; };
+		AF16DE231D27F98800CD316E /* QandAAccessoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF16DE1F1D27F98800CD316E /* QandAAccessoryTableViewController.swift */; };
+		AF16DE241D27F98800CD316E /* QandATableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF16DE201D27F98800CD316E /* QandATableViewController.swift */; };
+		AF16DE251D27F98800CD316E /* TextTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF16DE211D27F98800CD316E /* TextTableViewController.swift */; };
+		AF16DE271D27F9C700CD316E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF16DE261D27F9C700CD316E /* Constants.swift */; };
+		AF16DE291D27FA7100CD316E /* CloudQandATableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF16DE281D27FA7100CD316E /* CloudQandATableViewController.swift */; };
+		AF16DE2B1D28041000CD316E /* AllQandAsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF16DE2A1D28041000CD316E /* AllQandAsTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF16DE081D27F91F00CD316E /* Pollster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pollster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF16DE0B1D27F91F00CD316E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF16DE101D27F91F00CD316E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF16DE121D27F91F00CD316E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF16DE151D27F91F00CD316E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF16DE171D27F91F00CD316E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF16DE1E1D27F98800CD316E /* CloudKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitExtensions.swift; sourceTree = "<group>"; };
+		AF16DE1F1D27F98800CD316E /* QandAAccessoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QandAAccessoryTableViewController.swift; sourceTree = "<group>"; };
+		AF16DE201D27F98800CD316E /* QandATableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QandATableViewController.swift; sourceTree = "<group>"; };
+		AF16DE211D27F98800CD316E /* TextTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTableViewController.swift; sourceTree = "<group>"; };
+		AF16DE261D27F9C700CD316E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AF16DE281D27FA7100CD316E /* CloudQandATableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudQandATableViewController.swift; sourceTree = "<group>"; };
+		AF16DE2A1D28041000CD316E /* AllQandAsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllQandAsTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF16DE051D27F91F00CD316E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF16DDFF1D27F91F00CD316E = {
+			isa = PBXGroup;
+			children = (
+				AF16DE0A1D27F91F00CD316E /* Pollster */,
+				AF16DE091D27F91F00CD316E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF16DE091D27F91F00CD316E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF16DE081D27F91F00CD316E /* Pollster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF16DE0A1D27F91F00CD316E /* Pollster */ = {
+			isa = PBXGroup;
+			children = (
+				AF16DE0B1D27F91F00CD316E /* AppDelegate.swift */,
+				AF16DE281D27FA7100CD316E /* CloudQandATableViewController.swift */,
+				AF16DE2A1D28041000CD316E /* AllQandAsTableViewController.swift */,
+				AF16DE0F1D27F91F00CD316E /* Main.storyboard */,
+				AF16DE261D27F9C700CD316E /* Constants.swift */,
+				AF16DE1D1D27F93C00CD316E /* Supporting Files */,
+			);
+			path = Pollster;
+			sourceTree = "<group>";
+		};
+		AF16DE1D1D27F93C00CD316E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF16DE1E1D27F98800CD316E /* CloudKitExtensions.swift */,
+				AF16DE1F1D27F98800CD316E /* QandAAccessoryTableViewController.swift */,
+				AF16DE201D27F98800CD316E /* QandATableViewController.swift */,
+				AF16DE211D27F98800CD316E /* TextTableViewController.swift */,
+				AF16DE121D27F91F00CD316E /* Assets.xcassets */,
+				AF16DE141D27F91F00CD316E /* LaunchScreen.storyboard */,
+				AF16DE171D27F91F00CD316E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF16DE071D27F91F00CD316E /* Pollster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF16DE1A1D27F91F00CD316E /* Build configuration list for PBXNativeTarget "Pollster" */;
+			buildPhases = (
+				AF16DE041D27F91F00CD316E /* Sources */,
+				AF16DE051D27F91F00CD316E /* Frameworks */,
+				AF16DE061D27F91F00CD316E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pollster;
+			productName = Pollster;
+			productReference = AF16DE081D27F91F00CD316E /* Pollster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF16DE001D27F91F00CD316E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = kangleyu;
+				TargetAttributes = {
+					AF16DE071D27F91F00CD316E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 422W6YBHTM;
+					};
+				};
+			};
+			buildConfigurationList = AF16DE031D27F91F00CD316E /* Build configuration list for PBXProject "Pollster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF16DDFF1D27F91F00CD316E;
+			productRefGroup = AF16DE091D27F91F00CD316E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF16DE071D27F91F00CD316E /* Pollster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF16DE061D27F91F00CD316E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF16DE161D27F91F00CD316E /* LaunchScreen.storyboard in Resources */,
+				AF16DE131D27F91F00CD316E /* Assets.xcassets in Resources */,
+				AF16DE111D27F91F00CD316E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF16DE041D27F91F00CD316E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF16DE251D27F98800CD316E /* TextTableViewController.swift in Sources */,
+				AF16DE2B1D28041000CD316E /* AllQandAsTableViewController.swift in Sources */,
+				AF16DE221D27F98800CD316E /* CloudKitExtensions.swift in Sources */,
+				AF16DE241D27F98800CD316E /* QandATableViewController.swift in Sources */,
+				AF16DE0C1D27F91F00CD316E /* AppDelegate.swift in Sources */,
+				AF16DE231D27F98800CD316E /* QandAAccessoryTableViewController.swift in Sources */,
+				AF16DE271D27F9C700CD316E /* Constants.swift in Sources */,
+				AF16DE291D27FA7100CD316E /* CloudQandATableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF16DE0F1D27F91F00CD316E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF16DE101D27F91F00CD316E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF16DE141D27F91F00CD316E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF16DE151D27F91F00CD316E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF16DE181D27F91F00CD316E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF16DE191D27F91F00CD316E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF16DE1B1D27F91F00CD316E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Pollster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kangleyu.me.Pollster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF16DE1C1D27F91F00CD316E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Pollster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kangleyu.me.Pollster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF16DE031D27F91F00CD316E /* Build configuration list for PBXProject "Pollster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF16DE181D27F91F00CD316E /* Debug */,
+				AF16DE191D27F91F00CD316E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF16DE1A1D27F91F00CD316E /* Build configuration list for PBXNativeTarget "Pollster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF16DE1B1D27F91F00CD316E /* Debug */,
+				AF16DE1C1D27F91F00CD316E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF16DE001D27F91F00CD316E /* Project object */;
+}

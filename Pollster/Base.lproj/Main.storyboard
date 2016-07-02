@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="rEf-RX-k0u">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--All Qand As Table View Controller-->
+        <scene sceneID="xPy-2R-lCe">
+            <objects>
+                <tableViewController id="4e0-Gz-pBD" customClass="AllQandAsTableViewController" customModule="Pollster" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="bU5-Ye-xN3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="QandA Cell" id="LaN-3K-H5M">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LaN-3K-H5M" id="JxH-zB-cbx">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Ihu-D3-mcv" kind="show" identifier="Show QandA" id="gOu-3v-g3K"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="4e0-Gz-pBD" id="cIW-Xx-b6X"/>
+                            <outlet property="delegate" destination="4e0-Gz-pBD" id="lAe-QZ-6ps"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Y6G-qN-EKd">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="V7e-0c-rcX">
+                            <connections>
+                                <segue destination="Ihu-D3-mcv" kind="show" identifier="Show QandA" id="u4z-5q-GPr"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tVg-MS-zA5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1034" y="257"/>
+        </scene>
+        <!--Cloud QandA Table View Controller-->
+        <scene sceneID="ukM-qO-TUT">
+            <objects>
+                <tableViewController id="Ihu-D3-mcv" customClass="CloudQandATableViewController" customModule="Pollster" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Bva-ok-rWR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="Ihu-D3-mcv" id="rQe-ii-Lss"/>
+                            <outlet property="delegate" destination="Ihu-D3-mcv" id="Qf8-a7-Ca3"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="FeJ-ke-B0V"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NGE-Ys-jQ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1706" y="245"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="uhZ-KZ-gTd">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rEf-RX-k0u" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="H8d-fP-Hch">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="4e0-Gz-pBD" kind="relationship" relationship="rootViewController" id="x6x-Tw-29M"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Ep-RR-hA5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="257"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="u4z-5q-GPr"/>
+    </inferredMetricsTieBreakers>
+</document>
